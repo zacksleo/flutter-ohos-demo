@@ -24,10 +24,9 @@ dart pub global activate melos
 参考文章《鸿蒙Flutter实战：01-搭建开发环境》
 
 
+## 搭建项目架构
 
-## 使用官方 SDK 初始化项目
-
->创建目录
+### 创建目录
 
 ```bash
 # 创建项目目录
@@ -40,7 +39,7 @@ mkdir flutter-ohos-demo
 ```bash
 fvm use 3.22.0
 ```
-> 初始化工作区间
+### 初始化工作区间
 
 创建目录，项目结构如下所示：
 
@@ -71,11 +70,13 @@ fvm use 3.22.0
 └── pubspec.yaml
 ```
 
-> 运行 melos bootstrap
+### 运行 melos bootstrap
 
 ```
 melos bootstrap
 ```
+
+### 开始编写代码
 
 在各个 package 初始化代码，如在 `packages/common/domains` 目录运行
 
@@ -95,13 +96,15 @@ fvm flutter create --template package .
 fvm flutter create --template app --org com.moguyun.flutter app
 ```
 
-修改 pubspec.yaml, 增加依赖项
+#### 增加依赖项
+
+修改 pubspec.yaml，添加以下内容
 
  ```yaml
   services:
     path: '../../common/services'
   domains:
-    path: x'../../common/xxi
+    path:  '../../common/xxi
   widgets:
     path: '../../common/widgets'
 
@@ -112,6 +115,8 @@ fvm flutter create --template app --org com.moguyun.flutter app
   support:
     path: '../../modules/support'
  ```
+
+#### 安装依赖
 
 运行以下命令，安装依赖
 
