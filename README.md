@@ -193,6 +193,10 @@ dependency_overrides:
 
 三方库的适配情况，可以查询 Gitee/Github，或者查阅表格 [Flutter三方库适配计划](https://docs.qq.com/sheet/DVVJDWWt1V09zUFN2)
 
+5. 已知插件删除问题，如果删除插件，可能需要在ohos里面手动修改代码，移除相关依赖
+
+`ohos/oh-package.json5`
+
 ## 应用截图
 
 | 首页 | 我的 | 帮助 |
