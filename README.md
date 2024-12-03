@@ -96,6 +96,12 @@ fvm flutter create --template app --org com.moguyun.flutter app
     path: '../../modules/support'
  ```
 
+运行以下命令，安装依赖
+
+ ```
+fvm flutter pub get
+ ```
+
  ## 配置鸿蒙壳工程
 
 首先在 flutter-ohos-demo 项目根目录，将 Flutter 版本切换到鸿蒙化的版本
