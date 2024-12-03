@@ -126,6 +126,8 @@ fvm flutter pub get
 
 ### 鸿蒙壳工程
 
+#### 切换鸿蒙 Flutter SDK
+
 首先在 flutter-ohos-demo 项目根目录，将 Flutter 版本切换到鸿蒙化的版本
 
 ```
@@ -133,11 +135,15 @@ fvm use custom_3.22.0
 ```
 > SDK 变更以后，需要重启 IDE (或者 Dart：Restart Analysis Server)，以便让 Flutter 插件重新
 
+#### 创建 ohos_app 项目
+
 进入 packages/apps 目录，创建 ohos_app 项目
 
 ```bash
 fvm flutter create --template app --platforms ohos --org com.moguyun.flutter ohos_app
 ```
+
+#### 增加依赖项
 
 进入 packages/apps/ohos_app 目录中的 pubspec.yaml, 同样增加依赖项
 
@@ -157,7 +163,7 @@ fvm flutter create --template app --platforms ohos --org com.moguyun.flutter oho
     path: '../../modules/support'
  ```
 
-### 三方库鸿蒙化适配
+#### 三方库鸿蒙化适配
 
 编辑 pubspec.yaml文件，增加以下配置，通过 dependency_overrides 来替换鸿蒙化的三方库，注意鸿蒙化的库与原库，保持版本统一
 
