@@ -189,7 +189,7 @@ dependency_overrides:
 
 | 首页 | 我的 | 帮助 |
 | ----------- | ----------- | ----------- |
-| <img src="./.screenshot/image.jpeg" height="200"> | <img src="./.screenshot/image-1.jpeg" height="200"> | <img src="./.screenshot/image-2.jpeg" height="200"> |
+| <img src="./.screenshot/image.jpeg" width="200"> | <img src="./.screenshot/image-1.jpeg" width="200"> | <img src="./.screenshot/image-2.jpeg" width="200"> |
 
 
 
