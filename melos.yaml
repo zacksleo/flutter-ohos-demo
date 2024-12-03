@@ -22,4 +22,4 @@ scripts:
       melos exec -c 1 --ignore="*example*" -- \
       cp  $(PWD)/analysis_options.yaml analysis_options.yaml
 
-sdkPath: .fvm/versions/3.22.0
+sdkPath: .fvm/flutter_sdk

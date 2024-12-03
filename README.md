@@ -1,4 +1,12 @@
+# 鸿蒙 Flutter 实战：现有Flutter 项目支持鸿蒙 II
 
+## 引言
+
+在之前的文章《鸿蒙Flutter实战：09-现有Flutter项目支持鸿蒙》中，介绍了如何将现在项目改造，适配鸿蒙平台。
+
+文中讲述了整体的理念和思路，本文更进一步，结合可实操的项目代码，详细说明如何实施。
+
+通过模块化、鸿蒙壳工程，结合 FVM 管理多版本 Flutter SDK，最终，保持原 Flutter 代码纯净，最小化修改，完成了鸿蒙化的适配示例。
 
 ## 准备工作
 
@@ -98,22 +106,87 @@ fvm flutter create --template app --org com.moguyun.flutter app
 
 运行以下命令，安装依赖
 
- ```
+ ```bash
 fvm flutter pub get
  ```
 
- ## 配置鸿蒙壳工程
+## 配置鸿蒙壳工程
 
 首先在 flutter-ohos-demo 项目根目录，将 Flutter 版本切换到鸿蒙化的版本
 
 ```
 fvm use custom_3.22.0
 ```
+> SDK 变更以后，需要重启 IDE (或者 Dart：Restart Analysis Server)，以便让 Flutter 插件重新
 
 进入 packages/apps 目录，创建 ohos_app 项目
 
 ```bash
-fvm flutter create --template app --platforms ohos --org com.moguyun.flutter app
+fvm flutter create --template app --platforms ohos --org com.moguyun.flutter ohos_app
 ```
 
-同样增加依赖项
+进入 packages/apps/ohos_app 目录中的 pubspec.yaml, 同样增加依赖项
+
+ ```yaml
+  services:
+    path: '../../common/services'
+  domains:
+    path:  '../../common/xxi
+  widgets:
+    path: '../../common/widgets'
+
+  home:
+    path: '../../modules/home'
+  me:
+    path: '../../modules/me'
+  support:
+    path: '../../modules/support'
+ ```
+
+### 三方库鸿蒙化适配
+
+编辑 pubspec.yaml文件，增加以下配置，通过 dependency_overrides 来替换鸿蒙化的三方库，注意鸿蒙化的库与原库，保持版本统一
+
+```
+# 鸿蒙适配
+dependency_overrides:
+  flutter_inappwebview:
+    git:
+      url: https://gitee.com/openharmony-sig/flutter_inappwebview.git
+      path: "flutter_inappwebview"
+```
+
+> 每次修改完 pubspec.yaml，使用 `fvm flutter pub get` 更新下依赖安装。
+
+
+## 注意事项
+
+1. melos.yaml 文件中的 `sdkPath: .fvm/flutter_sdk` 配置了 melos 使用的 flutter SDK 版本，即由FVM 配置的当前项目版本
+
+2. 每次切换 Flutter SDK 时，都会修改文件 .fvm/, vscode/settings.json 文件
+
+3. ohos_app/pubsec.yaml 中的 dependency_overrides, 仅仅需要添加需要鸿蒙化的三方库
+
+如何判断三方库是否需要鸿蒙化，简而言之，如果三方库由 纯Dart实现，则不需要单独适配，自然可用；如果三方库依赖系统底层实现，则需要鸿蒙化适配。
+
+三方库的适配情况，可以查询 Gitee/Github，或者查阅表格 [Flutter三方库适配计划](https://docs.qq.com/sheet/DVVJDWWt1V09zUFN2)
+
+## 应用截图
+
+![alt text](./.screenshot/image.png)
+
+![alt text](./.screenshot/image-1.png)
+
+![alt text](./.screenshot/image-2.png)
+
+## 总结
+
+1. 通过 FVM 管理多个 Flutter SDK 版本，仅在鸿蒙调测打包时，切换到 ohos-flutter SDK
+2. 通过 apps 壳工程，将鸿蒙化适配的代码，尽量在 ohos_app 项目中完成。通过 pub 包管理的 `dependency_overrides` 配置，逐个替换鸿蒙化的三方库
+3. 通过 melos 管理多包项目，Flutter 项目进行模块化、组件化、插件化拆分，职责分离，平台抽象，不同平台组合打包，有效解决平台不一致问题
+
+## 参考资料
+
+- 鸿蒙Flutter实战：01-搭建开发环境
+- [Flutter三方库适配计划](https://docs.qq.com/sheet/DVVJDWWt1V09zUFN2)
+- [flutter-ohos-demo](https://gitee.com/zacks/flutter-ohos-demo.git)

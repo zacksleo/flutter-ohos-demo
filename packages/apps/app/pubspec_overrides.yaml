@@ -1,0 +1,14 @@
+# melos_managed_dependency_overrides: domains,home,me,services,support,widgets
+dependency_overrides:
+  domains:
+    path: ../../common/domains
+  home:
+    path: ../../modules/home
+  me:
+    path: ../../modules/me
+  services:
+    path: ../../common/services
+  support:
+    path: ../../modules/support
+  widgets:
+    path: ../../common/widgets
