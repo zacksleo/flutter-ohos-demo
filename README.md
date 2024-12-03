@@ -187,11 +187,11 @@ dependency_overrides:
 
 ## 应用截图
 
-![alt text](./.screenshot/image.png)
+![alt text](./.screenshot/image.jpeg)
 
-![alt text](./.screenshot/image-1.png)
+![alt text](./.screenshot/image-1.jpeg)
 
-![alt text](./.screenshot/image-2.png)
+![alt text](./.screenshot/image-2.jpeg)
 
 ## 总结
 
