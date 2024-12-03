@@ -181,6 +181,8 @@ dependency_overrides:
 
 3. ohos_app/pubsec.yaml 中的 dependency_overrides, 仅仅需要添加需要鸿蒙化的三方库
 
+4. ohos-3.22 在 build 时，有的 har 包可能确实，建议保持 ohos-Flutter 版本最新，如果还是不行，可以考虑手动复制 har 包（使用 3.7 构建出来）
+
 如何判断三方库是否需要鸿蒙化，简而言之，如果三方库由 纯Dart实现，则不需要单独适配，自然可用；如果三方库依赖系统底层实现，则需要鸿蒙化适配。
 
 三方库的适配情况，可以查询 Gitee/Github，或者查阅表格 [Flutter三方库适配计划](https://docs.qq.com/sheet/DVVJDWWt1V09zUFN2)
@@ -190,10 +192,6 @@ dependency_overrides:
 | 首页 | 我的 | 帮助 |
 | ----------- | ----------- | ----------- |
 | <img src="./.screenshot/image.jpeg" width="200"> | <img src="./.screenshot/image-1.jpeg" width="200"> | <img src="./.screenshot/image-2.jpeg" width="200"> |
-
-
-
-
 
 
 
