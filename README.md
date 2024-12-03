@@ -83,11 +83,13 @@ melos bootstrap
 fvm flutter create --template package .
 ```
 
-## 配置 App 壳工程
+## 创建壳工程
 
 新建两个壳工程，一个为 app，另外一个为 ohos_app
 
-进入 `package/apps/app` 目录, 创建 app 项目，该项目为一个 App 项目，支持各平台（ios/android/mac 等）
+### App 壳工程
+
+进入 `package/apps/app` 目录, 创建 app 项目，该项目为一个 App 项目，用于各平台（ios/android/mac 等， 不包含鸿蒙）打包
 
 ```bash
 fvm flutter create --template app --org com.moguyun.flutter app
@@ -117,7 +119,7 @@ fvm flutter create --template app --org com.moguyun.flutter app
 fvm flutter pub get
  ```
 
-## 配置鸿蒙壳工程
+### 鸿蒙壳工程
 
 首先在 flutter-ohos-demo 项目根目录，将 Flutter 版本切换到鸿蒙化的版本
 
