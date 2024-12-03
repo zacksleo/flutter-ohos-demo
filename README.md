@@ -23,7 +23,9 @@ dart pub global activate melos
 
 参考文章《鸿蒙Flutter实战：01-搭建开发环境》
 
-## 先使用官方 SDK 来初始化项目
+
+
+## 使用官方 SDK 初始化项目
 
 >创建目录
 
