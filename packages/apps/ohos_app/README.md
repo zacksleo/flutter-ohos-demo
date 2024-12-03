@@ -1,16 +1,9 @@
-# ohos_app
+# 鸿蒙项目壳工程
 
-A new Flutter project.
+用于 鸿蒙平台 应用打包
 
-## Getting Started
+lib/config 放置配置文件，如路由、主题等
 
-This project is a starting point for a Flutter application.
+pubspec.yaml 文件通过依赖各个模块，组合打包成 App
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+另外，这里面还可以包含为鸿蒙开发的代码。如果要开发服务卡片等原生功能，在 ohos 目录下开发。
