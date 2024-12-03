@@ -104,7 +104,7 @@ fvm flutter create --template app --org com.moguyun.flutter app
   services:
     path: '../../common/services'
   domains:
-    path:  '../../common/xxi
+    path:  '../../common/domains'
   widgets:
     path: '../../common/widgets'
 
@@ -151,7 +151,7 @@ fvm flutter create --template app --platforms ohos --org com.moguyun.flutter oho
   services:
     path: '../../common/services'
   domains:
-    path:  '../../common/xxi
+    path:  '../../common/domains'
   widgets:
     path: '../../common/widgets'
 
