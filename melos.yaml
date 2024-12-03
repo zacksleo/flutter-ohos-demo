@@ -1,0 +1,25 @@
+name: flutter-ohos-demo
+
+packages:
+  - packages/**
+
+scripts:
+  analyze:
+    exec: dart analyze .
+  dependency_validator:
+    exec: flutter pub run dependency_validator
+
+  dart_code_linter:
+    run: |
+      melos exec -c 1 --ignore="*example*" -- \
+        flutter pub run dart_code_linter:metrics analyze lib
+    description: |
+      Run `dart_code_linter` in all packages.
+      - Note: you can also rely on your IDEs Dart Analysis / Issues window.
+
+  cp-lint-options:
+    run: |
+      melos exec -c 1 --ignore="*example*" -- \
+      cp  $(PWD)/analysis_options.yaml analysis_options.yaml
+
+sdkPath: .fvm/versions/3.22.0
