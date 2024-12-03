@@ -188,6 +188,7 @@ dependency_overrides:
 
 ## 参考资料
 
-- 鸿蒙Flutter实战：01-搭建开发环境
+- [鸿蒙Flutter实战：01-搭建开发环境]
+- [鸿蒙Flutter实战：09-现有Flutter项目支持鸿蒙]
 - [Flutter三方库适配计划](https://docs.qq.com/sheet/DVVJDWWt1V09zUFN2)
 - [flutter-ohos-demo](https://gitee.com/zacks/flutter-ohos-demo.git)
