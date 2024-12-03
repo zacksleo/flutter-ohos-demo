@@ -187,11 +187,15 @@ dependency_overrides:
 
 ## 应用截图
 
-![alt text](./.screenshot/image.jpeg)
+| 首页 | 我的 | 帮助 |
+| ----------- | ----------- | ----------- |
+| <img src="./.screenshot/image.jpeg" height="200"> | <img src="./.screenshot/image-1.jpeg" height="200"> | <img src="./.screenshot/image-2.jpeg" height="200"> |
 
-![alt text](./.screenshot/image-1.jpeg)
 
-![alt text](./.screenshot/image-2.jpeg)
+
+
+
+
 
 ## 总结
 
