@@ -8,6 +8,8 @@
 
 通过模块化、鸿蒙壳工程，结合 FVM 管理多版本 Flutter SDK，最终，保持原 Flutter 代码纯净，最小化修改，完成了鸿蒙化的适配示例。
 
+本项目代码地址: https://gitee.com/zacks/flutter-ohos-demo
+
 ## 准备工作
 
 ### 1.安装 FVM
@@ -216,4 +218,4 @@ dependency_overrides:
 - [鸿蒙Flutter实战：01-搭建开发环境](https://gitee.com/zacks/awesome-harmonyos-flutter/blob/master/%E9%B8%BF%E8%92%99%20Flutter%20%E5%AE%9E%E6%88%98/%E9%B8%BF%E8%92%99Flutter%E5%AE%9E%E6%88%98%EF%BC%9A01-%E6%90%AD%E5%BB%BA%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83.md)
 - [鸿蒙Flutter实战：09-现有Flutter项目支持鸿蒙](https://gitee.com/zacks/awesome-harmonyos-flutter/blob/master/%E9%B8%BF%E8%92%99%20Flutter%20%E5%AE%9E%E6%88%98/%E9%B8%BF%E8%92%99Flutter%E5%AE%9E%E6%88%98%EF%BC%9A09-%E7%8E%B0%E6%9C%89Flutter%E9%A1%B9%E7%9B%AE%E6%94%AF%E6%8C%81%E9%B8%BF%E8%92%99.md)
 - [Flutter三方库适配计划](https://docs.qq.com/sheet/DVVJDWWt1V09zUFN2)
-- [flutter-ohos-demo](https://gitee.com/zacks/flutter-ohos-demo.git)
+- [flutter-ohos-demo项目代码](https://gitee.com/zacks/flutter-ohos-demo.git)
