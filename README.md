@@ -190,6 +190,14 @@ dependency_overrides:
 > 每次修改完 pubspec.yaml，使用 `fvm flutter pub get` 更新下依赖安装。
 
 
+#### 运行调试
+
+用 Deveco 打开apps/ohos_app/ohos 目录。
+
+在 Deveco 左上角 打开 File -> Project Structure..., 点击 Siging Configs, 勾选 Automatically generate signature, 对鸿蒙项目签名。
+
+在 ohos_app 目录下，使用 fvm flutter run，或者点击运行按钮，运行flutter项目。
+
 ## 注意事项
 
 1. melos.yaml 文件中的 `sdkPath: .fvm/flutter_sdk` 配置了 melos 使用的 flutter SDK 版本，即由FVM 配置的当前项目版本
