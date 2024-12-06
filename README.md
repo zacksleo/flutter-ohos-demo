@@ -12,8 +12,17 @@
 
 ## 准备工作
 
-### 1.安装 FVM
+### 1.安装 FVM 和 melos
+
+安装 [FVM](https://fvm.app/)，更多安装方式参考 fvm 官方文档
+
+```bash
+curl -fsSL https://fvm.app/install.sh | bash
 ```
+
+安装[melos](https://melos.invertase.dev/)
+
+```bash
 dart pub global activate melos
 ```
 
