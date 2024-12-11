@@ -28,7 +28,7 @@ dart pub global activate melos
 
 ### 2.使用 FVM 安装 Flutter SDK
 
-分别安装官方的3.22版本，以及鸿蒙社区的 3.22.0 版本
+分别安装官方的3.22版本，以及[鸿蒙社区的 3.22.0](https://gitee.com/harmonycommando_flutter/flutter) 版本
 
 ### 3.搭建 Flutter鸿蒙开发环境
 
