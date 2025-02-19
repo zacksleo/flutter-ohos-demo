@@ -229,7 +229,7 @@ dependency_overrides:
 | ----------- | ----------- | ----------- |
 | flutter_inappwebview | <img src="./.screenshot/image.jpeg" width="200"> |[查看代码](packages/modules/community/lib/src/screens/bbs.dart) |
 | video_player |  <img src="./.screenshot/image-3.jpeg" width="200"> |[查看代码](packages/modules/player/lib/src/screens/video_player.dart) |
-| cached_network_image |  <img src="./.screenshot/image-4.png" width="200"> |[查看代码](packages/modules/plugins/lib/screens/cached_network_image.dart) |
+| cached_network_image |  <img src="./.screenshot/image-4.png" width="200"> |[查看代码](packages/modules/plugins/lib/src/screens/cached_network_image.dart) |
 
 
 ## 总结
