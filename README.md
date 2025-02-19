@@ -223,6 +223,13 @@ dependency_overrides:
 | <img src="./.screenshot/image.jpeg" width="200"> | <img src="./.screenshot/image-1.jpeg" width="200"> | <img src="./.screenshot/image-2.jpeg" width="200"> | <img src="./.screenshot/image-3.jpeg" width="200"> |
 
 
+## 插件使用示例
+
+| 插件名 | 路径 | 截图 |
+| ----------- | ----------- | ----------- |
+| flutter_inappwebview | packages/modules/community/lib/src/screens/bbs.dart | <img src="./.screenshot/image.jpeg" width="200"> |
+| video_player | packages/modules/player/lib/src/screens/video_player.dart | <img src="./.screenshot/image-3.jpeg" width="200"> |
+
 
 ## 总结
 
