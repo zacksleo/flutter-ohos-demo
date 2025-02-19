@@ -17,7 +17,7 @@
 +      path: flutter_inappwebview
 ```
 
-## cached_network_image
+## video_player
 
 `packages/plugins/pubspec.yaml`
 

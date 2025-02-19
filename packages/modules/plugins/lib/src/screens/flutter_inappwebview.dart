@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 
-class BbsScren extends StatelessWidget {
-  const BbsScren({super.key});
+class FlutterInappwebviewScreen extends StatelessWidget {
+  const FlutterInappwebviewScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

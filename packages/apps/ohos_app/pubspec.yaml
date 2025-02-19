@@ -43,14 +43,10 @@ dependencies:
   widgets:
     path: '../../common/widgets'
 
-  community:
-    path: '../../modules/community'
   home:
     path: '../../modules/home'
   me:
     path: '../../modules/me'
-  player:
-    path: '../../modules/player'
   support:
     path: '../../modules/support'
   plugins:

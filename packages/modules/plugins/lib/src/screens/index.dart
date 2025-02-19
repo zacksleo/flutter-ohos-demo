@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:domains/enums.dart';
 import 'package:plugins/src/screens/cached_network_image.dart';
+import 'package:plugins/src/screens/video_player.dart';
 
 class PluginIndexScreen extends StatefulWidget {
   const PluginIndexScreen({super.key});
@@ -27,8 +28,11 @@ class _PluginIndexScreenState extends State<PluginIndexScreen> {
                 )),
         const SizedBox(height: 20),
         GestureDetector(
-          child: const Text('播放器-VideoPlayer'),
-          onTap: () => context.push(AppRoutes.videoPlayer.value),
+          child: const Text('video_player'),
+          onTap: () => Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const VideoPlayerScreen()),
+          ),
         ),
       ],
     ))));
