@@ -225,10 +225,10 @@ dependency_overrides:
 
 ## 插件使用示例
 
-| 插件名 | 路径 | 截图 |
+| 插件名 | 截图 | 使用示例 |
 | ----------- | ----------- | ----------- |
-| flutter_inappwebview | packages/modules/community/lib/src/screens/bbs.dart | <img src="./.screenshot/image.jpeg" width="200"> |
-| video_player | packages/modules/player/lib/src/screens/video_player.dart | <img src="./.screenshot/image-3.jpeg" width="200"> |
+| flutter_inappwebview | <img src="./.screenshot/image.jpeg" width="200"> |[查看代码](packages/modules/community/lib/src/screens/bbs.dart) |
+| video_player |  <img src="./.screenshot/image-3.jpeg" width="200"> |[查看代码](packages/modules/player/lib/src/screens/video_player.dart) |
 
 
 ## 总结
