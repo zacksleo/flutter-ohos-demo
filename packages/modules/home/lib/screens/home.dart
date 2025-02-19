@@ -17,7 +17,7 @@ class _HomeIndexScreenState extends State<HomeIndexScreen> {
             child: Center(
                 child: Column(
       children: [
-        const SizedBox(height: 20),
+        const SizedBox(height: 200),
         GestureDetector(
           child: const Text('插件列表'),
           onTap: () => context.push(AppRoutes.plugins.value),
