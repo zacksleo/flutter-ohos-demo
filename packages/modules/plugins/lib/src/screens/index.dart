@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:domains/enums.dart';
 import 'package:plugins/src/screens/cached_network_image.dart';
+import 'package:plugins/src/screens/flutter_inappwebview.dart';
 import 'package:plugins/src/screens/video_player.dart';
 
 class PluginIndexScreen extends StatefulWidget {
@@ -25,6 +26,13 @@ class _PluginIndexScreenState extends State<PluginIndexScreen> {
             onTap: () => Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => const CachedNetworkImageScreen()),
+                )),
+        const SizedBox(height: 20),
+        GestureDetector(
+            child: const Text('flutter_inappwebview'),
+            onTap: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const FlutterInappwebviewScreen()),
                 )),
         const SizedBox(height: 20),
         GestureDetector(
