@@ -12,7 +12,12 @@ dependency_overrides:
     path: ../../modules/support
   widgets:
     path: ../../common/widgets
+# 鸿蒙适配
   flutter_inappwebview:
     git:
       url: https://gitee.com/openharmony-sig/flutter_inappwebview.git
       path: flutter_inappwebview
+  video_player:
+    git:
+      url: https://gitee.com/openharmony-sig/flutter_packages.git
+      path: packages/video_player/video_player

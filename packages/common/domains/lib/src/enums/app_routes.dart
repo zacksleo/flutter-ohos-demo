@@ -2,8 +2,14 @@ enum AppRoutes {
   /// 首页
   home('/'),
 
+  /// 社区
+  community('/community/index'),
+
   /// 帮助中心
-  support('/support/index');
+  support('/support/index'),
+
+  /// 播放器
+  videoPlayer('/players/video-player');
 
   const AppRoutes(this.value);
 

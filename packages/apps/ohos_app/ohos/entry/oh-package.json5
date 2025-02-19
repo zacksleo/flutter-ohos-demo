@@ -6,6 +6,7 @@
   "author": "",
   "license": "",
   "dependencies": {
-    "flutter_inappwebview_ohos": "file:../har/flutter_inappwebview_ohos.har"
+    "flutter_inappwebview_ohos": "file:../har/flutter_inappwebview_ohos.har",
+    "video_player_ohos": "file:../har/video_player_ohos.har"
   }
 }
