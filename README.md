@@ -176,7 +176,7 @@ fvm flutter create --template app --platforms ohos --org com.moguyun.flutter oho
 
 #### 三方库鸿蒙化适配
 
-编辑 pubspec.yaml文件，增加以下配置，通过 dependency_overrides 来替换鸿蒙化的三方库，注意鸿蒙化的库与原库，保持版本统一
+编辑 [pubspec_overrides.yaml](./packages/apps/ohos_app/pubspec_overrides.yaml) 文件，增加以下配置，通过 dependency_overrides 来替换鸿蒙化的三方库，注意鸿蒙化的库与原库，保持版本统一
 
 ```
 # 鸿蒙适配
