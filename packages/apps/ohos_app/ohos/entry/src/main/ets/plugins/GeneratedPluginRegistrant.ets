@@ -1,5 +1,6 @@
 import { FlutterEngine, Log } from '@ohos/flutter_ohos';
 import InAppWebViewFlutterPlugin from 'flutter_inappwebview_ohos';
+import PathProviderPlugin from 'path_provider_ohos';
 import VideoPlayerPlugin from 'video_player_ohos';
 
 /**
@@ -15,6 +16,7 @@ export class GeneratedPluginRegistrant {
   static registerWith(flutterEngine: FlutterEngine) {
     try {
       flutterEngine.getPlugins()?.add(new InAppWebViewFlutterPlugin());
+      flutterEngine.getPlugins()?.add(new PathProviderPlugin());
       flutterEngine.getPlugins()?.add(new VideoPlayerPlugin());
     } catch (e) {
       Log.e(

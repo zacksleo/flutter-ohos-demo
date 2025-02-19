@@ -53,6 +53,8 @@ dependencies:
     path: '../../modules/player'
   support:
     path: '../../modules/support'
+  plugins:
+    path: '../../modules/plugins'
 
 dev_dependencies:
   flutter_test:

@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:domains/enums.dart';
+import 'package:plugins/src/screens/cached_network_image.dart';
 
-class HomeIndexScreen extends StatefulWidget {
-  const HomeIndexScreen({super.key});
+class PluginIndexScreen extends StatefulWidget {
+  const PluginIndexScreen({super.key});
 
   @override
-  State<HomeIndexScreen> createState() => _HomeIndexScreenState();
+  State<PluginIndexScreen> createState() => _PluginIndexScreenState();
 }
 
-class _HomeIndexScreenState extends State<HomeIndexScreen> {
+class _PluginIndexScreenState extends State<PluginIndexScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,18 +20,15 @@ class _HomeIndexScreenState extends State<HomeIndexScreen> {
       children: [
         const SizedBox(height: 100),
         GestureDetector(
-          child: const Text('社区-Webview'),
-          onTap: () => context.push(AppRoutes.community.value),
-        ),
+            child: const Text('cached_network_image'),
+            onTap: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const CachedNetworkImageScreen()),
+                )),
         const SizedBox(height: 20),
         GestureDetector(
           child: const Text('播放器-VideoPlayer'),
           onTap: () => context.push(AppRoutes.videoPlayer.value),
-        ),
-        const SizedBox(height: 20),
-        GestureDetector(
-          child: const Text('插件列表'),
-          onTap: () => context.push(AppRoutes.plugins.value),
         ),
       ],
     ))));
