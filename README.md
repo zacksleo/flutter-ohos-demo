@@ -218,9 +218,9 @@ dependency_overrides:
 
 ## 应用截图
 
-| 首页 | 我的 | 帮助 |
+| 首页 | 我的 | 帮助 | 播放器 |
 | ----------- | ----------- | ----------- |
-| <img src="./.screenshot/image.jpeg" width="200"> | <img src="./.screenshot/image-1.jpeg" width="200"> | <img src="./.screenshot/image-2.jpeg" width="200"> |
+| <img src="./.screenshot/image.jpeg" width="200"> | <img src="./.screenshot/image-1.jpeg" width="200"> | <img src="./.screenshot/image-2.jpeg" width="200"> | <img src="./.screenshot/image-3.jpeg" width="200"> |
 
 
 
