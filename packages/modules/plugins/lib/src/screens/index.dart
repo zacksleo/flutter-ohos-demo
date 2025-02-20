@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
-import 'package:domains/enums.dart';
 import 'package:plugins/src/screens/cached_network_image.dart';
 import 'package:plugins/src/screens/flutter_inappwebview.dart';
+import 'package:plugins/src/screens/shared_preferences.dart';
 import 'package:plugins/src/screens/video_player.dart';
 
 class PluginIndexScreen extends StatefulWidget {
@@ -40,6 +39,14 @@ class _PluginIndexScreenState extends State<PluginIndexScreen> {
           onTap: () => Navigator.push(
             context,
             MaterialPageRoute(builder: (context) => const VideoPlayerScreen()),
+          ),
+        ),
+        const SizedBox(height: 20),
+        GestureDetector(
+          child: const Text('shared_preferences'),
+          onTap: () => Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const SharedPreferencesScreen()),
           ),
         ),
       ],

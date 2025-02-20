@@ -176,7 +176,7 @@ fvm flutter create --template app --platforms ohos --org com.moguyun.flutter oho
 
 #### 三方库鸿蒙化适配
 
-编辑 [pubspec_overrides.yaml](./packages/apps/ohos_app/pubspec_overrides.yaml) 文件，增加以下配置，通过 dependency_overrides 来替换鸿蒙化的三方库，注意鸿蒙化的库与原库，保持版本统一
+1. 如果使用了 FVM，则编辑 [pubspec.yaml](./packages/apps/ohos_app/pubspec.yaml) 文件，增加以下配置，通过 dependency_overrides 来替换鸿蒙化的三方库，注意鸿蒙化的库与原库，保持版本统一
 
 ```
 # 鸿蒙适配
@@ -187,8 +187,23 @@ dependency_overrides:
       path: "flutter_inappwebview"
 ```
 
-> 每次修改完 pubspec.yaml，使用 `fvm flutter pub get` 更新下依赖安装。
+编辑完运行 `melos bootstrap`, 这些更新 pubspec_overrides.yaml, 在里面添加相同的 dependency_overrides 内容。
 
+
+2. 如果没有使用 FVM，则直接编辑 [pubspec_overrides.yaml](./packages/apps/ohos_app/pubspec_overrides.yaml) 文件，没有则手动创建，添加以下内容：
+
+```
+# 鸿蒙适配
+dependency_overrides:
+  flutter_inappwebview:
+    git:
+      url: https://gitee.com/openharmony-sig/flutter_inappwebview.git
+      path: "flutter_inappwebview"
+```
+
+编辑完运行 `fvm flutter pub get` 安装依赖。
+
+以上两种方式执行成功后，观察 pubspec.lock 文件，可以发现，增加了类似 xxx_ohos 的插件依赖，本文中的例子为 `flutter_inappwebview_ios`
 
 #### 运行调试
 

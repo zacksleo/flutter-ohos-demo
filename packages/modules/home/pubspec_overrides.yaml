@@ -1,4 +1,6 @@
-# melos_managed_dependency_overrides: me
+# melos_managed_dependency_overrides: me,domains
 dependency_overrides:
+  domains:
+    path: ../../common/domains
   me:
     path: ../me

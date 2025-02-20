@@ -1,4 +1,4 @@
-# melos_managed_dependency_overrides: domains,home,me,services,support,widgets,flutter_inappwebview
+# melos_managed_dependency_overrides: domains,home,me,services,support,widgets,flutter_inappwebview,plugins,video_player,path_provider,shared_preferences
 dependency_overrides:
   domains:
     path: ../../common/domains
@@ -12,7 +12,8 @@ dependency_overrides:
     path: ../../modules/support
   widgets:
     path: ../../common/widgets
-# 鸿蒙适配
+  plugins:
+    path: ../../modules/plugins
   flutter_inappwebview:
     git:
       url: https://gitee.com/openharmony-sig/flutter_inappwebview.git
@@ -23,5 +24,9 @@ dependency_overrides:
       path: packages/video_player/video_player
   path_provider:
     git:
-      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
-      path: "packages/path_provider/path_provider"
+      url: https://gitee.com/openharmony-sig/flutter_packages.git
+      path: packages/path_provider/path_provider
+  shared_preferences:
+    git:
+      url: https://gitee.com/openharmony-sig/flutter_packages.git
+      path: packages/shared_preferences/shared_preferences
