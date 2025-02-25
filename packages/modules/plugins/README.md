@@ -13,7 +13,7 @@
 ```diff
 +  flutter_inappwebview:
 +    git:
-+      url: https://gitee.com/openharmony-sig/flutter_inappwebview.git
++      url: https://gitcode.com/openharmony-sig/flutter_inappwebview.git
 +      path: flutter_inappwebview
 ```
 
@@ -30,7 +30,7 @@
 ```diff
 +  video_player:
 +    git:
-+      url: https://gitee.com/openharmony-sig/flutter_packages.git
++      url: https://gitcode.com/openharmony-sig/flutter_packages.git
 +      path: packages/video_player/video_player
 ```
 ## cached_network_image
@@ -46,6 +46,6 @@
 ```diff
 +  path_provider:
 +    git:
-+      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
++      url: "https://gitcode.com/openharmony-sig/flutter_packages.git"
 +      path: "packages/path_provider/path_provider"
 ```

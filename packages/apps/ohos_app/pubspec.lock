@@ -155,7 +155,7 @@ packages:
       path: flutter_inappwebview
       ref: HEAD
       resolved-ref: "045cbcf2082c80d06ae4a18a9198441d26a95db2"
-      url: "https://gitee.com/openharmony-sig/flutter_inappwebview.git"
+      url: "https://gitcode.com/openharmony-sig/flutter_inappwebview.git"
     source: git
     version: "6.0.0"
   flutter_inappwebview_android:
@@ -164,7 +164,7 @@ packages:
       path: flutter_inappwebview_android
       ref: HEAD
       resolved-ref: "045cbcf2082c80d06ae4a18a9198441d26a95db2"
-      url: "https://gitee.com/openharmony-sig/flutter_inappwebview.git"
+      url: "https://gitcode.com/openharmony-sig/flutter_inappwebview.git"
     source: git
     version: "1.0.12"
   flutter_inappwebview_internal_annotations:
@@ -173,7 +173,7 @@ packages:
       path: "dev_packages/flutter_inappwebview_internal_annotations"
       ref: HEAD
       resolved-ref: "045cbcf2082c80d06ae4a18a9198441d26a95db2"
-      url: "https://gitee.com/openharmony-sig/flutter_inappwebview.git"
+      url: "https://gitcode.com/openharmony-sig/flutter_inappwebview.git"
     source: git
     version: "1.1.1"
   flutter_inappwebview_ios:
@@ -182,7 +182,7 @@ packages:
       path: flutter_inappwebview_ios
       ref: HEAD
       resolved-ref: "045cbcf2082c80d06ae4a18a9198441d26a95db2"
-      url: "https://gitee.com/openharmony-sig/flutter_inappwebview.git"
+      url: "https://gitcode.com/openharmony-sig/flutter_inappwebview.git"
     source: git
     version: "1.0.13"
   flutter_inappwebview_macos:
@@ -191,7 +191,7 @@ packages:
       path: flutter_inappwebview_macos
       ref: HEAD
       resolved-ref: "045cbcf2082c80d06ae4a18a9198441d26a95db2"
-      url: "https://gitee.com/openharmony-sig/flutter_inappwebview.git"
+      url: "https://gitcode.com/openharmony-sig/flutter_inappwebview.git"
     source: git
     version: "1.0.11"
   flutter_inappwebview_ohos:
@@ -200,7 +200,7 @@ packages:
       path: flutter_inappwebview_ohos
       ref: HEAD
       resolved-ref: "045cbcf2082c80d06ae4a18a9198441d26a95db2"
-      url: "https://gitee.com/openharmony-sig/flutter_inappwebview.git"
+      url: "https://gitcode.com/openharmony-sig/flutter_inappwebview.git"
     source: git
     version: "0.0.1"
   flutter_inappwebview_platform_interface:
@@ -209,7 +209,7 @@ packages:
       path: flutter_inappwebview_platform_interface
       ref: HEAD
       resolved-ref: "045cbcf2082c80d06ae4a18a9198441d26a95db2"
-      url: "https://gitee.com/openharmony-sig/flutter_inappwebview.git"
+      url: "https://gitcode.com/openharmony-sig/flutter_inappwebview.git"
     source: git
     version: "1.0.10"
   flutter_inappwebview_web:
@@ -218,7 +218,7 @@ packages:
       path: flutter_inappwebview_web
       ref: HEAD
       resolved-ref: "045cbcf2082c80d06ae4a18a9198441d26a95db2"
-      url: "https://gitee.com/openharmony-sig/flutter_inappwebview.git"
+      url: "https://gitcode.com/openharmony-sig/flutter_inappwebview.git"
     source: git
     version: "1.0.8"
   flutter_lints:
@@ -400,7 +400,7 @@ packages:
       path: "packages/path_provider/path_provider"
       ref: HEAD
       resolved-ref: "056bced4b677ed4f168b245823570c40fe55bddb"
-      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
+      url: "https://gitcode.com/openharmony-sig/flutter_packages.git"
     source: git
     version: "2.1.0"
   path_provider_android:
@@ -433,7 +433,7 @@ packages:
       path: "packages/path_provider/path_provider_ohos"
       ref: HEAD
       resolved-ref: "056bced4b677ed4f168b245823570c40fe55bddb"
-      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
+      url: "https://gitcode.com/openharmony-sig/flutter_packages.git"
     source: git
     version: "2.2.1"
   path_provider_platform_interface:
@@ -496,7 +496,7 @@ packages:
       path: "packages/shared_preferences/shared_preferences"
       ref: HEAD
       resolved-ref: "056bced4b677ed4f168b245823570c40fe55bddb"
-      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
+      url: "https://gitcode.com/openharmony-sig/flutter_packages.git"
     source: git
     version: "2.2.0"
   shared_preferences_android:
@@ -529,7 +529,7 @@ packages:
       path: "packages/shared_preferences/shared_preferences_ohos"
       ref: HEAD
       resolved-ref: "056bced4b677ed4f168b245823570c40fe55bddb"
-      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
+      url: "https://gitcode.com/openharmony-sig/flutter_packages.git"
     source: git
     version: "2.2.0"
   shared_preferences_platform_interface:
@@ -678,7 +678,7 @@ packages:
       path: "packages/video_player/video_player"
       ref: HEAD
       resolved-ref: "056bced4b677ed4f168b245823570c40fe55bddb"
-      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
+      url: "https://gitcode.com/openharmony-sig/flutter_packages.git"
     source: git
     version: "2.7.1"
   video_player_android:
@@ -703,7 +703,7 @@ packages:
       path: "packages/video_player/video_player_ohos"
       ref: HEAD
       resolved-ref: "056bced4b677ed4f168b245823570c40fe55bddb"
-      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
+      url: "https://gitcode.com/openharmony-sig/flutter_packages.git"
     source: git
     version: "1.0.0+1"
   video_player_platform_interface:

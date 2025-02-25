@@ -16,17 +16,17 @@ dependency_overrides:
     path: ../../modules/plugins
   flutter_inappwebview:
     git:
-      url: https://gitee.com/openharmony-sig/flutter_inappwebview.git
+      url: https://gitcode.com/openharmony-sig/flutter_inappwebview.git
       path: flutter_inappwebview
   video_player:
     git:
-      url: https://gitee.com/openharmony-sig/flutter_packages.git
+      url: https://gitcode.com/openharmony-sig/flutter_packages.git
       path: packages/video_player/video_player
   path_provider:
     git:
-      url: https://gitee.com/openharmony-sig/flutter_packages.git
+      url: https://gitcode.com/openharmony-sig/flutter_packages.git
       path: packages/path_provider/path_provider
   shared_preferences:
     git:
-      url: https://gitee.com/openharmony-sig/flutter_packages.git
+      url: https://gitcode.com/openharmony-sig/flutter_packages.git
       path: packages/shared_preferences/shared_preferences
