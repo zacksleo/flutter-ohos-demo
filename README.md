@@ -201,7 +201,7 @@ dependency_overrides:
       path: "flutter_inappwebview"
 ```
 
-编辑完运行 `fvm flutter pub get` 安装依赖。
+编辑完运行 `flutter pub get` 安装依赖。
 
 以上两种方式执行成功后，观察 pubspec.lock 文件，可以发现，增加了类似 xxx_ohos 的插件依赖，本文中的例子为 `flutter_inappwebview_ios`
 
