@@ -49,3 +49,20 @@
 +      url: "https://gitcode.com/openharmony-sig/flutter_packages.git"
 +      path: "packages/path_provider/path_provider"
 ```
+
+## image_picker
+
+`packages/plugins/pubspec.yaml`
+
+```diff
++  image_picker: ^1.1.2
+```
+
+`packages/apps/ohos_app/pubspec_overrides.yaml`
+
+```diff
++  image_picker:
++    git:
++      url: https://gitcode.com/openharmony-sig/flutter_packages.git
++      path: packages/image_picker/image_picker
+```

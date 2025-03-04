@@ -70,6 +70,10 @@ dependency_overrides:
     git:
       url: "https://gitcode.com/openharmony-sig/flutter_packages.git"
       path: "packages/shared_preferences/shared_preferences"
+  image_picker:
+    git:
+      url: "https://gitcode.com/openharmony-sig/flutter_packages.git"
+      path: "packages/image_picker/image_picker"
 
 
 dev_dependencies:

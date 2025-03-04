@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:plugins/src/screens/cached_network_image.dart';
 import 'package:plugins/src/screens/flutter_inappwebview.dart';
+import 'package:plugins/src/screens/image_picker.dart';
 import 'package:plugins/src/screens/shared_preferences.dart';
 import 'package:plugins/src/screens/video_player.dart';
 
@@ -47,6 +48,14 @@ class _PluginIndexScreenState extends State<PluginIndexScreen> {
           onTap: () => Navigator.push(
             context,
             MaterialPageRoute(builder: (context) => const SharedPreferencesScreen()),
+          ),
+        ),
+        const SizedBox(height: 20),
+        GestureDetector(
+          child: const Text('image_picker'),
+          onTap: () => Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const ImagePickerScreen()),
           ),
         ),
       ],

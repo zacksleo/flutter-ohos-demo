@@ -1,4 +1,4 @@
-# melos_managed_dependency_overrides: domains,home,me,services,support,widgets,flutter_inappwebview,plugins,video_player,path_provider,shared_preferences
+# melos_managed_dependency_overrides: domains,home,me,services,support,widgets,flutter_inappwebview,plugins,video_player,path_provider,shared_preferences,image_picker
 dependency_overrides:
   domains:
     path: ../../common/domains
@@ -30,3 +30,7 @@ dependency_overrides:
     git:
       url: https://gitcode.com/openharmony-sig/flutter_packages.git
       path: packages/shared_preferences/shared_preferences
+  image_picker:
+    git:
+      url: https://gitcode.com/openharmony-sig/flutter_packages.git
+      path: packages/image_picker/image_picker

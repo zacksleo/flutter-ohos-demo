@@ -245,6 +245,7 @@ dependency_overrides:
 | flutter_inappwebview | <img src="./.screenshot/image.jpeg" width="200"> |[查看代码](./packages/modules/plugins/README.md#flutter_inappwebview) |
 | video_player |  <img src="./.screenshot/image-3.jpeg" width="200"> |[查看代码](./packages/modules/plugins/README.md#video_player) |
 | cached_network_image |  <img src="./.screenshot/image-4.png" width="200"> |[查看代码](./packages/modules/plugins/README.md#cached_network_image) |
+|image_picker| <img src="./.screenshot/image-5.png" width="200">  | [查看代码](./packages/modules/plugins/README.md#image_picker) |
 
 
 ## 总结
