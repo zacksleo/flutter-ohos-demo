@@ -6,6 +6,8 @@
   "author": "",
   "license": "",
   "dependencies": {
+    "@amap/amap_lbs_common": ">=1.1.0",
+    "@amap/amap_lbs_map3d": ">=2.1.1",
     "flutter_inappwebview_ohos": "file:../har/flutter_inappwebview_ohos.har",
     "video_player_ohos": "file:../har/video_player_ohos.har",
     "path_provider_ohos": "file:../har/path_provider_ohos.har",

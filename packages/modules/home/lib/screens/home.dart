@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:domains/enums.dart';
+import 'package:services/services.dart';
 
 class HomeIndexScreen extends StatefulWidget {
   const HomeIndexScreen({super.key});
@@ -21,6 +22,11 @@ class _HomeIndexScreenState extends State<HomeIndexScreen> {
         GestureDetector(
           child: const Text('插件列表'),
           onTap: () => context.push(AppRoutes.plugins.value),
+        ),
+        const SizedBox(height: 20),
+        GestureDetector(
+          child: const Text('原生页面'),
+          onTap: () => PlatformCall.redirectNative('pages/Amap'),
         ),
       ],
     ))));

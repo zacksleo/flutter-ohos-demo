@@ -6,9 +6,9 @@
         "type": "HarmonyOS",
         "material": {
           "certpath": "/Users/zacksleo/.ohos/config/default_ohos_1DgRDGNlKnnn4RoQpSgwvdwREU2L4B-G8IxoVDSldwM=.cer",
-          "storePassword": "0000001A4E6038ED6FF0B7D4CE562E18A7695BF8F86BC5DFA6CC61EA4C6AA33E07EC35FA6BECAEEC2E9F",
+          "storePassword": "0000001BCC3180D2C5B3AFAABBC12FBBE193BB76654E02CAF7BD2C9EEDDB837A9E6D3291E9952FD52E0765",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001AA196A6BA694DDB28426BC28AAE09B2679CD4CBB44613784F1E4BA49A582553E0A29809BEB049",
+          "keyPassword": "0000001B3D63B612584945AA4654D8B06B70C6AC0393C0E34089F35FAAC939F51E3337B5836D03576F26CA",
           "profile": "/Users/zacksleo/.ohos/config/default_ohos_1DgRDGNlKnnn4RoQpSgwvdwREU2L4B-G8IxoVDSldwM=.p7b",
           "signAlg": "SHA256withECDSA",
           "storeFile": "/Users/zacksleo/.ohos/config/default_ohos_1DgRDGNlKnnn4RoQpSgwvdwREU2L4B-G8IxoVDSldwM=.p12"
@@ -20,7 +20,12 @@
         "name": "default",
         "signingConfig": "default",
         "compatibleSdkVersion": "5.0.0(12)",
-        "runtimeOS": "HarmonyOS"
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "useNormalizedOHMUrl": true
+          }
+        }
       }
     ]
   },
