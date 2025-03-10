@@ -9,6 +9,13 @@
 			"cwd": "packages/apps/ohos_app",
 			"request": "attach",
 			"type": "dart"
-		      },
+		},
+		{
+			"name": "ohos_app (debug mode)",
+			"cwd": "packages/apps/ohos_app",
+			"request": "launch",
+			"type": "dart",
+      "deviceId": ""
+		},
 	]
 }

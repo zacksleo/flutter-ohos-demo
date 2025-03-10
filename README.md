@@ -104,7 +104,7 @@ fvm flutter create --template package .
 进入 `package/apps/app` 目录, 创建 app 项目，该项目为一个 App 项目，用于各平台（ios/android/mac 等， 不包含鸿蒙）打包
 
 ```bash
-fvm flutter create --template app --org com.moguyun.flutter app
+fvm flutter create --template app --org com.shaohushuo.flutter app
 ```
 
 #### 增加依赖项
@@ -151,7 +151,7 @@ fvm use custom_3.22.0
 进入 packages/apps 目录，创建 ohos_app 项目
 
 ```bash
-fvm flutter create --template app --platforms ohos --org com.moguyun.flutter ohos_app
+fvm flutter create --template app --platforms ohos --org com.shaohushuo.flutter ohos_app
 ```
 
 #### 增加依赖项
