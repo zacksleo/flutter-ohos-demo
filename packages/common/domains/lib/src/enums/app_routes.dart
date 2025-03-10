@@ -5,6 +5,8 @@ enum AppRoutes {
   /// 插件
   plugins('/plugins/index'),
 
+  amapPlugin('/plugins/amap'),
+
   /// 帮助中心
   support('/support/index');
 

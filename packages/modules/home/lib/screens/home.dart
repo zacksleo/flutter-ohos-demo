@@ -28,6 +28,11 @@ class _HomeIndexScreenState extends State<HomeIndexScreen> {
           child: const Text('原生页面'),
           onTap: () => PlatformCall.redirectNative('pages/Amap'),
         ),
+        const SizedBox(height: 20),
+        GestureDetector(
+          child: const Text('混合页面'),
+          onTap: () => context.push(AppRoutes.amapPlugin.value),
+        ),
       ],
     ))));
   }

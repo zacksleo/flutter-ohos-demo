@@ -15,6 +15,7 @@
 
 import { FlutterAbility, FlutterEngine } from '@ohos/flutter_ohos';
 import { GeneratedPluginRegistrant } from '../plugins/GeneratedPluginRegistrant';
+import { AmapWidgetPlugin } from './AmapWidget/AmapWidgetPlugin';
 import OhosPlugin from './OhosPlugin';
 
 export default class EntryAbility extends FlutterAbility {
@@ -22,5 +23,6 @@ export default class EntryAbility extends FlutterAbility {
     super.configureFlutterEngine(flutterEngine)
     GeneratedPluginRegistrant.registerWith(flutterEngine)
     this.addPlugin(new OhosPlugin())
+    this.addPlugin(new AmapWidgetPlugin())
   }
 }
