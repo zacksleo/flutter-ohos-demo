@@ -48,7 +48,7 @@ class _AmapWidgetState extends State<AmapWidget> {
   }
 
   void _onPlatformViewCreated(int id) {
-    _channel = MethodChannel('com.shaohushuo.app/customView$id');
+    _channel = MethodChannel('com.shaohushuo.app/customView/$id');
     final controller = AmapWidgetController._(
       _channel,
     );

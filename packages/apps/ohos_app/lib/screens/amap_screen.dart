@@ -41,8 +41,8 @@ class _AmapScreenState extends State<AmapScreen> {
           height: 200,
         ),
         SizedBox(
-          height: 120,
-          width: 200,
+          height: 200,
+          width: 400,
           child: AmapWidget(_onViewCreated),
         ),
         TextButton(
